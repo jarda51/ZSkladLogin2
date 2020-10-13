@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.OData" Version="5.8.4" />
+    <PackageReference Include="Microsoft.Data.Services.Client" Version="5.8.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ZSklad">
+      <HintPath>..\..\ZSklad\ZSklad\bin\Debug\netcoreapp3.1\ZSklad.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
